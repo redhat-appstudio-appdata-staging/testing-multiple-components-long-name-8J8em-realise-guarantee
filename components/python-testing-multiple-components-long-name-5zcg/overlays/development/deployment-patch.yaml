@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: python-testing-multiple-components-long-name-5zcg
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/rsoaresd-tenant/testing-multiple-components-long-name/python-testing-multiple-components-long-name-5zcg@sha256:67fbac89f04fa7a9775d5865eb1fe8a7ede8ea1c74c81d93c46cca6023938f0d
+        name: my-python
+        resources: {}
+status: {}
