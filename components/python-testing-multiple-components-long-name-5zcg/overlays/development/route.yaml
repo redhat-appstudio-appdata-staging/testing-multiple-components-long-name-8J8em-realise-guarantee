@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: python-testing-multiple-components-long-name-5zcg
     app.kubernetes.io/part-of: testing-multiple-components-long-name
-  name: python-testing-multiple-cxmt2
+  name: python-testing-multiple-clokc
 spec:
   path: /
   port:
