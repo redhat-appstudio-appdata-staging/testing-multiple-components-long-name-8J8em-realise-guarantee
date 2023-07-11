@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: python-testing-multiple-components-long-name-5zcg
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
