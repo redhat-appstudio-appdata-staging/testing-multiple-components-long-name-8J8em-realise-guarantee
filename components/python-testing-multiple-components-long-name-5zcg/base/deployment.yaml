@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: python-testing-multiple-components-long-name-5zcg
     spec:
       containers:
-      - image: python-image:latest
+      - image: quay.io/redhat-user-workloads-stage/rsoaresd-tenant/testing-multiple-components-long-name/python-testing-multiple-components-long-name-5zcg@sha256:da5b6746f6a2908d04639d170e63f3edc33a56d7c8a8d0a251cf0f20fffccec1
         name: my-python
         ports:
         - containerPort: 8081
