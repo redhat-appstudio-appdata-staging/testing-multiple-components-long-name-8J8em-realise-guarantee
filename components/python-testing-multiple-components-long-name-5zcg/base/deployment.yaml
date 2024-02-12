@@ -10,7 +10,7 @@ metadata:
     app.kubernetes.io/part-of: testing-multiple-components-long-name
   name: python-testing-multiple-components-long-name-5zcg
 spec:
-  replicas: 1
+  replicas: 0
   revisionHistoryLimit: 0
   selector:
     matchLabels:
